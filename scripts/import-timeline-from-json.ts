@@ -1,4 +1,4 @@
-import "dotenv/config";
+import "@/lib/loadEnv";
 
 import { readFile } from "node:fs/promises";
 import path from "node:path";

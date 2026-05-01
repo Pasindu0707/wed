@@ -1,4 +1,4 @@
-import "dotenv/config";
+import "@/lib/loadEnv";
 
 import { connectToDatabase } from "@/lib/db";
 import { WeddingModel } from "@/models/Wedding";
